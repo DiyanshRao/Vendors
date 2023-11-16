@@ -1,0 +1,29 @@
+.nav {
+  background-color: #9eb8d9;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.nav-text {
+  color: #eef5ff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Nunito', sans-serif;
+}
+.flexing {
+  display: flex;
+  justify-content: flex-start;
+  justify-items: center;
+  gap: 30px;
+}
+
+.nav-text2 {
+  color: #eef5ff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Nunito', sans-serif;
+}
+a {
+  text-decoration: none;
+}
