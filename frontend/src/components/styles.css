@@ -1,15 +1,15 @@
 .nav {
-  background-color: #9eb8d9;
+  background-color: #eef5ff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
   justify-items: center;
 }
 .nav-text {
-  color: #eef5ff;
-  font-size: 20px;
+  color: #3d3d3d;
+  font-size: 18px;
   font-weight: 700;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Gudea', 'Helvetica', sans-serif;
 }
 .flexing {
   display: flex;
@@ -17,13 +17,127 @@
   justify-items: center;
   gap: 30px;
 }
-
 .nav-text2 {
-  color: #eef5ff;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'Nunito', sans-serif;
+  color: #3d3d3d;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Gudea', 'Helvetica', sans-serif;
+}
+.Head {
+  color: rgb(48, 48, 48);
+  font-family: 'Bai Jamjuree', Helvetica, serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+}
+.Parah {
+  color: rgb(61, 61, 61);
+  font-family: Gudea, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+.firstA {
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Gudea, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(22, 64, 133);
+  color: rgb(22, 64, 133);
+  width: fit-content;
+}
+.secondParah {
+  color: rgb(130, 130, 130);
+  margin: 0;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.bg {
+  background-color: #eef5ff;
+}
+.w-50 {
+  width: 500px;
+}
+.h-50 {
+  height: 500px;
+}
+.h-20 {
+  height: 200px;
+}
+.rounded {
+  border-radius: 20px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .rounded {
+    display: block;
+  }
+}
+.sectionPadding {
+  padding: 25px 0px;
 }
 a {
   text-decoration: none;
+}
+.flexWrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  gap: 40px;
+  width: fit-content;
+}
+.center {
+  text-align: center;
+}
+.flexCol2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: flex-start;
+}
+.w-45 {
+  width: 450px;
+}
+.head2 {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.p2 {
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.pad-2 {
+  padding: 20px;
+}
+.mt-10 {
+  margin-top: 50px;
+}
+.link {
+  margin: 30px, 0px;
+  color: rgb(22, 64, 133);
+  font-weight: 600;
+}
+.my-2 {
+  margin: 20px, 0px;
+}
+.bg-gray {
+  background-color: rgb(249 250 251);
+}
+.bg-white {
+  background-color: white;
 }
